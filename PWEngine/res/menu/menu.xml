@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/SetOrientation"
+            android:title="@string/SetOrientation" >
+        <!-- "file" submenu -->
+        <menu>
+    	   <group android:checkableBehavior="single">
+             <item android:id="@+id/Portrait"
+                   android:title="@string/Portrait"/>
+             <item android:id="@+id/Landscape"
+                   android:title="@string/Landscape"  android:checked="true" />
+           </group>
+        </menu>
+    </item>
+    <item android:id="@+id/SetOutput"
+            android:title="@string/SetOutput" >
+        <!-- "file" submenu -->
+        <menu>
+    	   <group android:checkableBehavior="single">
+             <item android:id="@+id/OutputNumber"
+                   android:title="@string/OutputNumber" android:checked="true" />
+             <item android:id="@+id/OutputText"
+                   android:title="@string/OutputText" />
+           </group>
+        </menu>
+        </item>
+    <item android:id="@+id/SetMode"
+           android:title="@string/SetMode" >
+        <!-- "file" submenu -->
+        <menu>
+    	   <group android:checkableBehavior="single">
+             <item android:id="@+id/Test"
+                   android:title="@string/Test"  android:checked="true" />
+             <item android:id="@+id/Wallpaper"
+                   android:title="@string/Wallpaper" />
+             <item android:id="@+id/HTTPOut"
+                   android:title="@string/HTTPOut" />
+              <item android:id="@+id/SendBroadcast"
+                   android:title="@string/SendBroadcast" />            
+           </group>
+        </menu>
+    </item>
+      <item android:id="@+id/SetWallpaperDir"
+           android:title="@string/SetWallpaperDir" >
+        <!-- "file" submenu -->
+        <menu>
+    	   <group android:checkableBehavior="single">
+             <item android:id="@+id/UsePreset"
+                   android:title="@string/UsePreset"  android:checked="true" />
+             <item android:id="@+id/UseUserDir"
+                   android:title="@string/UseUserDir" />
+            </group>
+        </menu>
+    </item> 
+    <item android:id="@+id/Options"
+           android:title="@string/Options" >
+        <menu>
+           <item android:id="@+id/AutoThump"
+           android:title="@string/AutoThump" android:checkable="true" />
+           <item android:id="@+id/VibrateOnPanic"
+           android:title="@string/VibrateOnPanic" android:checkable="true" />
+            <item android:id="@+id/VibOnHTTP"
+           android:title="@string/VibOnHTTP" android:checkable="true" />
+            <item android:id="@+id/VibOnWPChange"
+           android:title="@string/VibOnWPChange" android:checkable="true" />  
+           <item android:id="@+id/VibOnBroadcast"
+           android:title="@string/VibOnBroadcast" android:checkable="true" />               
+           <item android:id="@+id/SetAutoThumpSpeed"
+           android:title="@string/SetAutoThumpSpeed" />   
+           <item android:id="@+id/SetHTTPOutURL"
+           android:title="@string/SetHTTPOutURL" />
+            <item android:id="@+id/SetHomescreen"
+           android:title="@string/SetHomescreen" />         
+       </menu>
+    </item>
+    <item android:id="@+id/Help"
+            android:title="@string/Help" >
+    </item>
+</menu>

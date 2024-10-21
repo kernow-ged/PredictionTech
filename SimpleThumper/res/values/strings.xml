@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="app_name">SimpleThumper</string>
+     <string name="play">listen</string>
+     <string name="stop">stop</string>
+     <string name="HTTPOutURL">http://adniroc.co.uk/thump/check.php?r1=zzz&amp;token=e55b7</string> 
+        <string name="HTTPOutURL2">http://adniroc.co.uk/thump/thumpthis.php?r1=zzz&amp;token=e55b7</string> 
+     <string name="SetThumpSpeed">Set thumper speed</string> 
+       <string name="ThumpTip">Move the slider to the right to speed up the thumping, or to the left to slow it down.</string>    
+   <string name="ThumpTitle">Thump speed</string>       
+</resources>

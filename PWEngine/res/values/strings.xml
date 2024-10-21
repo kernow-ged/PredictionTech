@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PWEngine</string>
+    <string name="SetOrientation">Set orientation</string>
+    <string name="Portrait">Portrait</string>
+    <string name="Landscape">Landscape</string>
+    <string name="Ithink2">I think your text is</string>
+    <string name="SetOutput">Input mode</string>
+    <string name="OutputNumber">Numerals</string>
+    <string name="OutputText">Letters</string>
+    <string name="SetMode">Output mode</string>
+    <string name="Test">Test mode</string>
+    <string name="Wallpaper">Wallpaper effect</string>
+    <string name="HTTPOut">Transmit by HTTP</string>
+    <string name="SendBroadcast">Broadcast intent</string>   
+    <string name="Options">Options</string>
+    <string name="AutoThump">Auto-thump (test mode)</string>
+    <string name="SetHTTPOutURL">Edit URL</string>
+    <string name="VibrateOnPanic">Vibrate on reset</string>
+    <string name="VibOnHTTP">Vibrate on HTTP</string>
+    <string name="VibOnWPChange">Vibrate on wallpaper change</string>
+    <string name="VibOnBroadcast">Vibrate on intent broadcast</string>
+    <string name="Spellcheck">Use spell checking</string>
+    <string name="Help">Help</string>
+    <string name="Ithink">I think your number is</string> 
+    <string name="Dbltap">Double-tap to return</string> 
+    <string name="SetHomescreen">Set home screen</string>
+    <string name="SetAutoThumpSpeed">Set auto-thump speed</string>
+    <string name="AutoThumpTip">Move the slider to the right to speed up the thumping in test mode, or to the left to slow it down.</string>    
+   <string name="AutoThumpTitle">Auto-thump speed</string>
+   <string name="HTTPOutTip">Enter an URL here: the sequence ### will be replaced with your pocket-written numbers in action. See Help file for details.</string>    
+   <string name="HTTPOutTitle">Set URL</string>
+   <string name="SetHomescreenTip">Enter the number of panels that your home screen has here: see Help file for details</string>
+   <string name="SetHomescreenTitle">Set home screen</string>
+   <string name="HTTPOutURL">http://adniroc.co.uk/cards/set.php?r1=zzz&amp;n=###</string>
+<string name="SetWallpaperDir">Wallpaper location</string>
+<string name="UsePreset">Use preset (cards)</string>
+<string name="UseUserDir">Use own images</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<android.gesture.GestureOverlayView
+	android:id="@+id/gestures"
+	android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:gestureStrokeType="single"
+    android:eventsInterceptionEnabled="true"
+    android:orientation="horizontal"
+    android:layout_weight="1.0" 
+	android:fadeOffset = "10"
+	android:gestureColor = "#22ddff"
+	android:uncertainGestureColor = "#0000cc"
+	android:fadeDuration = "30">
+    
+<View  
+    android:id="@+id/mtext"
+    android:background="#000000"
+   	android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:hapticFeedbackEnabled="false"
+    android:soundEffectsEnabled="false"
+    android:longClickable="true"
+      />
+    
+  </android.gesture.GestureOverlayView>  
+    
+</LinearLayout>
